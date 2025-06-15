@@ -10,7 +10,7 @@ A Streamlit web application that provides personalized book recommendations usin
 - **Top 50 Books Section**: Displays the most popular books based on ratings
 - **Personalized Recommendations**: Uses collaborative filtering to suggest similar books
 - **User-Friendly Interface**: Simple dropdown selection for book recommendations
-- **Responsive Design**: Adapts to different screen sizes
+- **Design**: Quick prototype
 
 ## Technologies Used
 
@@ -26,7 +26,7 @@ A Streamlit web application that provides personalized book recommendations usin
 The system uses the [Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset) from Kaggle, which contains:
 - Book information (title, author, publication year, etc.)
 - User ratings data
-- Book cover image URLs
+- User Ratings
 
 ## How It Works
 
@@ -75,9 +75,7 @@ A live version of this application is available at [Streamlit](https://ljbookrec
 
 ## Credits
 
-- Developed by Lijo Joseph
-- Dataset provided by NXTwave
-- Inspired by various book recommendation system projects
+- NXTwave
 
 
 
