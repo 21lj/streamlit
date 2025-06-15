@@ -19,11 +19,11 @@ def load_books_from_drive(file_id):
 
 # importing models 
 
-popular = pkl.load(open('./popular.pkl', 'rb'))
+popular = pkl.load(open('popular.pkl', 'rb'))
 # books = pkl.load(open('./books.pkl', 'rb'))
 books = load_books_from_drive("1X4kf6vaJ9OJ7UD5QRWLL1H5U8hoxKcNl")
-pt = pkl.load(open('./pt.pkl', 'rb'))
-similarityScores = pkl.load(open('./similarityScores.pkl','rb'))
+pt = pkl.load(open('pt.pkl', 'rb'))
+similarityScores = pkl.load(open('similarityScores.pkl','rb'))
 
 # Top 50 books
 
