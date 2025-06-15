@@ -3,3 +3,5 @@ pandas==2.2.2
 numpy==1.26.4
 scikit-learn==1.5.0
 pickle==1.0.2
+requests==2.32.3
+pickle-mixin==1.0.2
