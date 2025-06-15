@@ -19,10 +19,6 @@ def load_books_from_drive(file_id):
 
 # importing models 
 
-# popular = pkl.load(open('popular.pkl', 'rb'))
-# books = pkl.load(open('./books.pkl', 'rb'))
-# pt = pkl.load(open('pt.pkl', 'rb'))
-# similarityScores = pkl.load(open('similarityScores.pkl','rb'))
 
 popular = load_books_from_drive("1NrvEC7aprrPgCJ5VgOc5G5hCFPaaODTJ")
 books = load_books_from_drive("1X4kf6vaJ9OJ7UD5QRWLL1H5U8hoxKcNl")
@@ -81,22 +77,6 @@ if st.sidebar.button("Recommend"):
             st.text(bookRecommends[colIndex][0])
             st.text(bookRecommends[colIndex][1])
 
-
-# validate
-
-# sBooks = pd.read_csv('./data/Books.csv')
-# sRatings = pd.read_csv('./data/Ratings.csv')
-# sUsers = pd.read_csv('./data/Users.csv')
-
-# st.sidebar.title("Data Used")
-
-# if st.sidebar.button("Show Data"):
-#     st.subheader("Books")
-#     st.dataframe(sBooks)
-#     st.subheader("Ratings")
-#     st.dataframe(sRatings)
-#     st.subheader("Users")
-#     st.dataframe(sUsers)
 
 
 st.markdown("""<hr style="border: 0.5px solid #ccc;" />
