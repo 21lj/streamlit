@@ -2,7 +2,7 @@
 # Book Recommendation System
 
 A Streamlit web application that provides personalized book recommendations using collaborative filtering and showcases the top 50 popular books.
-live: https://ljbookrec.streamlit.app/
+[Full code](https://drive.google.com/file/d/1QaRm99JSIZD-22rDm6YfFyLhnqfBbWJZ/view?usp=sharing)
 
 
 ## Features
@@ -71,7 +71,7 @@ To run this project locally:
 
 ## Hosted Version
 
-A live version of this application is available at [GitHub Pages](https://21lj.github.io/streamlit/).
+A live version of this application is available at [Streamlit](https://ljbookrec.streamlit.app/).
 
 ## Credits
 
