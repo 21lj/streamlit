@@ -1,6 +1,7 @@
 # Diabetes Prediction System (End-to-End ML)
 
 A professional medical classification project that predicts the likelihood of diabetes based on diagnostic measurements. This project covers the full lifecycle: from **Exploratory Data Analysis (EDA)** and **Model Comparison** to a live **Web Deployment**.
+[link](https://diabetes-prediction-lite.streamlit.app/)
 
 ---
 
