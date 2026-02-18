@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import plotly.graph_objects as go
+import os
 
 
 st.set_page_config(
@@ -43,6 +44,8 @@ if model is None or scalar is None:
     ```
     This will train and save the model files.
     """)
+    st.write("Current working directory:", os.getcwd())
+    st.write("Files in directory:", os.listdir())
     st.stop()
 
 
