@@ -24,8 +24,8 @@ st.markdown("""
 @st.cache_resource
 def load_model_and_scaler():
     try:
-        model = joblib.load('diabetes_model.pkl')
-        scalar = joblib.load('scalar_svm.pkl')
+        model = joblib.load('diabetes-prediction/diabetes_model.pkl')
+        scalar = joblib.load('diabetes-prediction/scalar_svm.pkl')
         return model, scalar
     except FileNotFoundError:
         return None, None 
