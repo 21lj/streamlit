@@ -8,3 +8,4 @@ streamlit
 joblib
 notebook
 ipykernel
+scipy
